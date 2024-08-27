@@ -205,5 +205,48 @@ ul.nav-links {
 }
 
 .hero-image a:hover {
+  color: var(--action-colour);
+}
+
+/* ------------------ information cards -------------- */
+
+.more-info {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: auto;
+  gap: 8px;
+  margin: 1rem;
+}
+
+.more-info h2 {
+  font-size: 36px;
+  color: var(--dark-text-colour);
+  font-weight: 900;
+  text-align: center;
+  margin: 1rem;
+}
+
+.info-cards {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-image {
+  border: 0.3rem solid var(--action-colour);
+  border-radius: 1rem;
+  height: 230px;
+  width: 230px;
+  object-fit: cover;
+}
+
+.card-text {
+    text-align: center;
+    color: var(--dark-text-colour);
+}
+.card-text a:hover {
     color: var(--action-colour);
 }
