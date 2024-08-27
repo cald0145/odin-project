@@ -281,4 +281,51 @@ cite {
     text-align: right;
 }
 
-/* ------------------ call to action -------------- */
+/* ------------------ call to action / newsletter -------------- */
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-card {
+    background-color: var(--action-colour);
+    display: flex;
+    margin: 4rem;
+    padding: 2rem 4rem;
+    width: auto;
+    gap: 16px;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.action-card button {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--action-colour);
+    color: var(--secondary-text-colour);
+    border: none;
+    padding: 0.2rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.action-card .btn {
+    border: 0.2rem solid var(--secondary-text-colour);
+}
+
+.action-card .btn:hover {
+    background-color: var(--secondary-text-colour);
+    color: var(--dark-text-colour);
+}
+
+/* ------------------ Footer -------------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--dark-background-colour);
+}
